@@ -1,0 +1,245 @@
+:root{
+    --primary-color: #3D8160;
+    --yellow-color: #FFCC4A;
+    --secondary-color: #FFF2E5;
+    --marron-color: #ED6363;
+    --white-color: #FFFFFF;
+    --light-color: #F9F9F9;
+    --grey-color: #444444;
+    --black-color: #222222;
+}
+
+/*general*/
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: var(--light-color);
+    color: var(--grey-color) !important;
+}
+
+.btn{
+    border-radius: 10px;
+}
+
+.bg-transparant{
+    background-color: transparent;
+}
+.text-success{
+    color: var(--primary-color) !important;
+}
+
+.text-grey{
+    color: var(--grey-color) !important;
+}
+
+/* header */
+.header{
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    top: 30px;
+    border: 1px solid rgba(255, 255, 255, 1);
+    backdrop-filter: blur(5px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.07);
+}
+
+.header .nav-link.active{
+    color: var(--primary-color);
+}
+
+.header .nav-link{
+    color: var(--black-color);
+    margin: 0 20px;
+}
+
+.features, .innovation, .exploreasi, .cta, .contact{
+    padding: 100px 0;
+}
+
+/* Home */
+.home{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../img/hero.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+
+.home::before{
+    content: '';
+    position: absolute;
+    background-image: linear-gradient(rgba(249, 249, 249, 0.4), rgba(249, 249, 249, 1));
+    height: 100%;
+    width: 100%;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+
+.home .container-fluid, .home .row{
+    height: 100%;
+}
+
+.home .row{
+    position: relative;
+}
+
+.home .row .tagline{
+    color: var(--primary-color);
+}
+
+.home .row .title{
+    font-size: 48px;
+}
+
+/* feature */
+.features{
+    position: relative;
+    overflow: hidden;
+}
+
+.features:before{
+    content: '';
+    position: absolute;
+    background-color: rgba(255, 204, 74, 0.3);
+    filter: blur(10em);
+    width: 873px;
+    height: 873px;
+    border-radius: 50%;
+    top: -200px;
+    right: -200px;
+    z-index: -1;
+}
+
+.features:after{
+    content: '';
+    position: absolute;
+    background-color: rgba(45, 210, 170, 0.3);
+    filter: blur(10em);
+    width: 873px;
+    height: 873px;
+    border-radius: 50%;
+    bottom: -200px;
+    left: -200px;
+    z-index: -1;
+}
+
+.features .card{
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    border-color: #ffffff;
+    text-align: center;
+    padding-top: 60px;
+    height: 100%;
+    backdrop-filter: blur(5px);
+}
+
+.features .card iconify-icon{
+    font-size: 50px;
+    color: var(--primary-color);
+}
+
+
+/* visi mission */
+.innovation{
+    padding: 100px 0;
+}
+
+.exploreasi{
+
+}
+
+/* Call to Action */
+.cta{
+    background-image: linear-gradient(to right, rgba(45, 210, 170, 0.3) 12%, rgba(255, 204, 74, 0.3) 100%);
+}
+
+/* FAQ */
+.faq .accordion-button:not(.collapsed), .faq .accordion-button:focus{
+    background-color: transparent;
+    box-shadow: none;
+    outline: none;
+    color: var(--primary-color);
+}
+
+/* contact */
+.contact{
+    position: relative;
+    overflow: hidden;
+}
+
+.contact:before{
+    content: '';
+    position: absolute;
+    background-color: rgba(255, 204, 74, 0.3);
+    filter: blur(10em);
+    width: 873px;
+    height: 873px;
+    border-radius: 50%;
+    bottom: -100px;
+    right: -100px;
+    z-index: -1;
+}
+
+.contact:after{
+    content: '';
+    position: absolute;
+    background-color: rgba(45, 210, 170, 0.3);
+    filter: blur(10em);
+    width: 873px;
+    height: 873px;
+    border-radius: 50%;
+    top: -100px;
+    left: -100px;
+    z-index: -1;
+}
+
+.contact .card{
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    border-color: #ffffff;
+    padding: 45px;
+    height: 100%;
+    backdrop-filter: blur(10px);
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.07);
+    border-width: 2px;
+}
+
+.contact .card iconify-icon{
+    font-size: 50px;
+    color: var(--primary-color);
+}
+
+
+.form-label{
+    color: var(--grey-color);
+}
+
+.form-control{
+    padding: 14px 24px;
+    background-color: transparent;
+    border-color: var(--grey-color);
+}
+
+.form-control:focus{
+    background-color: transparent;
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 0.25rem rgba(61, 129, 96, 0.25);
+}
+
+.form-control::placeholder{
+    color: var(--grey-color);
+}
+
+
+/* footer */
+.footer{
+    padding: 50px 0 0 0; 
+}
+
+.footer .footer-close{
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+}
