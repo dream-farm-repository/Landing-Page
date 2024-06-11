@@ -1,0 +1,44 @@
+@media (max-width: 575.98px) {
+	.header{
+		top: 10px;
+		width: calc(100vw - 20px);
+	}
+
+	.header.active{
+		width: 100vw;
+	}
+
+	.header .navbar-brand .logo{
+		width: calc(100% - 40px);
+	}
+
+
+	.home .row .title{
+		position: relative;
+		font-size: 30px;
+	}
+
+	.contact .card{
+		padding: 10px;
+	}
+
+	.lead{
+		font-size: 16px !important;
+	}
+	section:not(.home){
+		padding-left: 25px !important;
+		padding-right: 25px !important;
+	}
+
+	.exploreasi{
+		padding: 10px 0 !important;
+	}
+}
+
+/*@media (max-width: 767.98px) { ... }
+
+@media (max-width: 991.98px) { ... }
+
+@media (max-width: 1199.98px) { ... }
+
+@media (max-width: 1399.98px) { ... }*/

@@ -4,21 +4,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
+    <title>Dfarm Dream</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/aos.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"> -->
     <link rel="stylesheet" href="assets/css/glightbox.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
     <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
 </head>
 
 <body>
 
-    <div class="header container fixed-top">
+    <div class="header container fixed-top" data-aos="fade-up">
         <nav class="navbar navbar-expand-lg">
             <a class="navbar-brand" href="#">
                 <img src="./assets/img/logo.png" alt="DARM DREAM" class="logo">
@@ -31,8 +32,8 @@
                     <a class="nav-link" href="#home">Home</a>
                     <a class="nav-link" href="#features">Tentang</a>
                     <a class="nav-link" href="#exploreasi">Layanan</a>
-                    <a class="nav-link" href="#">FAQ</a>
-                    <a class="nav-link" href="#">Kontak</a>
+                    <a class="nav-link" href="#faq">FAQ</a>
+                    <a class="nav-link" href="#contact">Kontak</a>
                 </div>
                 <div class="navbar-nav">
                     <button class="btn btn-success px-4 py-2">Login</button>
@@ -45,10 +46,10 @@
         <section class="home" id="home">
             <div class="container-fluid">
                 <div class="row justify-content-center align-items-center">
-                    <div class="col-8 text-center">
-                        <small class="lead tagline fw-medium">Investasi Ternak</small>
+                    <div class="col-lg-8 col-12 text-center px-4" data-aos="fade-up">
+                        <small class="lead tagline fw-medium">Ternak Modern</small>
                         <div class="fw-bold title">Peternakan yang Terhubung Secara Digital</div>
-                        <div class="lead desc mt-4">Investasi properti melalui peternakan ayam petelur yang berbasis teknologi dan integrasi agriculture</div>
+                        <div class="lead desc mt-4">Prospek melalui properti peternakan ayam petelur yang berbasis teknologi dan integrasi agriculture</div>
                         <button class="btn btn-success rounded-pill mt-5 px-5 py-3">Selengkapnya</button>
                     </div>
                 </div>
@@ -57,18 +58,18 @@
 
         <section class="about" id="about">
             <div class="container">
-                <div class="row align-items-center pt-5">
-                    <div class="col-lg-6">
-                        <h1 class="text-success">Tentang DFARM DREAM</h1>
+                <div class="row align-items-center pt-lg-5">
+                    <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
+                        <h1 class="text-success mb-4">Tentang <span class="fw-semibold">Dfarm Dream</span></h1>
                         <small class="lead">
-                            Dalam era digital yang terus berkembang kami hadir untuk memanfaatkan peluang investasi ternak ayam petelur yang berbasis teknologi dan terintegrasi agriculture.
+                            Dalam era digital yang terus berkembang kami hadir untuk memanfaatkan peluang dalam bentuk peternakan ayam petelur yang berbasis teknologi dan terintegrasi agriculture.
                             <br />
                             <br />
-                            Dfarm Dream menawarkan investasi properti untuk para investor terlibat dalam industri ternak tanpa harus mengelola peternakan mereka sendiri.
+                            Dfarm Dream menawarkan prospek untuk properti bagi anda yang ingin terlibat dalam industri ternak tanpa harus mengelola langsung peternakan anda sendiri.
                         </small>
                     </div>
-                    <div class="col-lg-6">
-                        <img src="./assets/img/about.png" class="img-fluid">
+                    <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+                        <img src="./assets/img/about.png" class="img-fluid mt-5 mt-lg-0">
                     </div>
                 </div>
             </div>
@@ -79,67 +80,65 @@
                 <div class="row justify-content-center mb-5">
                     <div class="col-lg-8 text-center">
                         <h1 class="text-success fw-semibold">Bagaimana kami bekerja?</h1>
-                        <small class="lead">
-                            Tingkatkan efisiensi. Inilah cara kami bekerja. Melalui penerapan teknologi dan integrasi agriculture
-                        </small>
+                        <small class="lead">Tingkatkan efisiensi. Inilah cara kami bekerja. Melalui penerapan teknologi dan integrasi agriculture</small>
                     </div>
                 </div>
                 <div class="row row-gap-4">
                     <div class="col-lg-4">
-                        <div class="card">
+                        <div class="card" data-aos="fade-up" data-aos-delay="100">
                             <div class="card-body">
                                 <iconify-icon icon="eos-icons:monitoring"></iconify-icon>
-                                <h6 class="lead fw-semibold text-success my-2">heading</h6>
+                                <h6 class="lead fw-semibold text-success my-2">Monitoring</h6>
                                 <p class="text-grey mt-4">Peternak secara real-time memantau melalui cctv yang terhubung dengan aplikasi, termasuk kondisi ternak, kandang dan lingkungan.</p>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-lg-4">
-                        <div class="card">
+                        <div class="card" data-aos="fade-up" data-aos-delay="200">
                             <div class="card-body">
                                 <iconify-icon icon="material-symbols:eye-tracking"></iconify-icon>
-                                <h6 class="lead fw-semibold text-success my-2">heading</h6>
+                                <h6 class="lead fw-semibold text-success my-2">Pelacakan Produksi</h6>
                                 <p class="text-grey mt-4">Peternak dapat mencatat dan melacak data produksi secara akurat, seperti jumlah telur yang dihasilkan dan kesuburan hewan</p>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-lg-4">
-                        <div class="card">
+                        <div class="card" data-aos="fade-up" data-aos-delay="300">
                             <div class="card-body">
                                 <iconify-icon icon="icon-park-twotone:category-management"></iconify-icon>
-                                <h6 class="lead fw-semibold text-success my-2">heading</h6>
+                                <h6 class="lead fw-semibold text-success my-2">Pemeliharaan</h6>
                                 <p class="text-grey mt-4">Memfasilitasi manajemen pemeliharaan hewan secara efisien. membantu peternak mengelola pemeliharaan hewan dengan lebih terstruktur</p>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-lg-4">
-                        <div class="card">
+                        <div class="card" data-aos="fade-up" data-aos-delay="400">
                             <div class="card-body">
                                 <iconify-icon icon="mdi:environment-outline"></iconify-icon>
-                                <h6 class="lead fw-semibold text-success my-2">heading</h6>
+                                <h6 class="lead fw-semibold text-success my-2">Lingkungan Ternak</h6>
                                 <p class="text-grey mt-4">Meningkatkan kesejahteraan hewan, mencegah penyakit yang disebabkan oleh lingkungan, dan memastikan kondisi ideal untuk produksi</p>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-lg-4">
-                        <div class="card">
+                        <div class="card" data-aos="fade-up" data-aos-delay="500">
                             <div class="card-body">
                                 <iconify-icon icon="solar:chart-2-outline"></iconify-icon>
-                                <h6 class="lead fw-semibold text-success my-2">heading</h6>
+                                <h6 class="lead fw-semibold text-success my-2">Analisis Data</h6>
                                 <p class="text-grey mt-4">Perencanaan yang lebih baik, prediksi tren kesehatan dan produksi, serta peningkatan keseluruhan dalam manajemen peternakan.</p>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-lg-4">
-                        <div class="card">
+                        <div class="card" data-aos="fade-up" data-aos-delay="700">
                             <div class="card-body">
                                 <iconify-icon icon="fluent:learning-app-20-regular"></iconify-icon>
-                                <h6 class="lead fw-semibold text-success my-2">heading</h6>
+                                <h6 class="lead fw-semibold text-success my-2">Edukasi Ternak</h6>
                                 <p class="text-grey mt-4">Memberikan pembelajaran melalui wisata edukasi untuk memberikan manfaat pada masyarakat luas</p>
                             </div>
                         </div>
@@ -151,27 +150,27 @@
         <section class="innovation" id="innovation">
             <div class="container">
                 <div class="row mb-5">
-                    <div class="col-lg-7">
+                    <div class="col-lg-7" data-aos="fade-up" data-aos-delay="100">
                         <h1 class="text-success fw-semibold">Inovasi dan Komitmen</h1>
                         <small class="lead">Inovasi dan komitmen adalah kuncinya. Bersama, keduanya membentuk fondasi yang kokoh untuk meraih prestasi.</small>
                     </div>
                 </div>
                 <div class="row row-gap-4 my-5 justify-content-between align-items-center">
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-aos="fade-right" data-aos-delay="200">
                         <img src="./assets/img/visi.png" alt="Komitmen" class="img-fluid">
                     </div>
-                    <div class="col-lg-5">
+                    <div class="col-lg-5" data-aos="fade-up" data-aos-delay="300">
                         <h5 class="fs-4 mb-4 text-success">Hadir untuk Indonesia</h5>
                         <p>Kami bertekad untuk memajukan Indonesia melalui program kami yang menghadirkan serta menciptakan ketahanan pangan pada kawasan pedesaan dengan menghadirkan peternakan ayam petelur yang terintegrasi agriculture dan juga berbasis teknologi yang transparan serta memberikan peluang untuk masyarakat lokal melalui berbagai program kami serta hadir untuk menjadi kawasan edukasi</p>
                     </div>
                 </div>
 
                 <div class="row row-gap-4 my-5 justify-content-between align-items-center">
-                    <div class="col-lg-5">
+                    <div class="col-lg-5 order-2 order-lg-1" data-aos="fade-right" data-aos-delay="400">
                         <h5 class="fs-4 mb-4 text-success">Komitmen Kami</h5>
                         <p>Melalui komitmen kami membangun peternakan ayam petelur dengan memberdayakan kawasan pedesaan, kami berkomitmen dalam mewujudkan program produktivitas satu juta telur perhari dalam rangka ketangguhan pangan. Juga memberikan pelayanan yang transparan, modern, dan menguntungkan. Adapun komitmen kami untuk menghadirkan kawasan peternakan yang memberikan manfaat edukasi dan wisata berkelanjutan</p>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-up" data-aos-delay="500">
                         <img src="./assets/img/misi.png" alt="Komitmen" class="img-fluid">
                     </div>
                 </div>
@@ -181,22 +180,22 @@
         <section class="exploreasi" id="exploreasi">
             <div class="container">
                 <div class="row mb-5">
-                    <div class="col-lg-7">
+                    <div class="col-lg-7" data-aos="fade-up" data-aos-delay="100">
                         <h1 class="text-success fw-semibold">Eksplorasi peternakan kami</h1>
                         <small class="lead">Bergabunglah dengan kami dalam petualangan ini menuju inovasi dan keunggulan yang tak terbatas.</small>
                     </div>
                 </div>
                 <div class="row row-gap-4 my-5 justify-content-between align-items-center">
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-aos="fade-right" data-aos-delay="200">
                         <img src="./assets/img/eksplorasi.png" alt="Komitmen" class="img-fluid">
                     </div>
                     <div class="col-lg-5">
-                        <div class="mb-5">
+                        <div class="mb-5" data-aos="fade-up" data-aos-delay="300">
                             <h5 class="fs-4 mb-4 text-success">Kavling Ternak</h5>
-                            <p>Peternakan dengan sistem kavling ber SHM dengan luas <span class="fw-semibold text-success">300 meter persegi</span>, berada di daerah sejuk dibawah kaki gunung ciremai serta dikelola oleh tenaga profesional dan juga berpengalaman, serta memberdayakan masyarakat lokal untuk membantu pertumbuhan ekonomi pedesaan</p>
+                            <p>Peternakan dengan sistem kavling ber <span class="fw-semibold text-success">SHM</span> dengan luas <span class="fw-semibold text-success">300 meter persegi</span>, berada di daerah sejuk dibawah kaki gunung ciremai serta dikelola oleh tenaga profesional dan juga berpengalaman, serta memberdayakan masyarakat lokal untuk membantu pertumbuhan ekonomi pedesaan</p>
                         </div>
 
-                        <div class="mb-5">
+                        <div class="mb-5" data-aos="fade-up" data-aos-delay="400">
                             <h5 class="fs-4 mb-4 text-success">Peternakan Modern</h5>
                             <p>Masalah pada peternakan konvensional dapat diselesaikan dengan Integrasi teknologi IOT dan sistem digital serta sumber daya yang terampil dapat membantu meningkatkan hasil ternak anda. Anda akan selalu medapatkan hasil terkini dan maksimal dari ternak anda.</p>
                         </div>
@@ -209,24 +208,24 @@
         <section class="exploreasi" id="exploreasi">
             <div class="container">
                 <div class="row justify-content-center my-5">
-                    <div class="col-lg-10 text-center">
+                    <div class="col-lg-10 text-center" data-aos="fade-down" data-aos-duration="2000">
                         <h1 class="text-success fw-semibold">Rasakan kemudahan pengolahan ternak</h1>
                         <small class="lead">Masa Depan yang Cerdas dan Efisientelur berkualitas tinggi yang hadir dari peternakan modern kami yang terhubung secara digital</small>
                     </div>
                 </div>
 
                 <div class="row row-gap-4 my-5 justify-content-between align-items-center">
-                    <div class="col-lg-12">
+                    <div class="col-lg-12" data-aos="fade-down" data-aos-delay="500">
                         <img src="./assets/img/show-app.png" alt="Komitmen" class="img-fluid">
                     </div>
                 </div>
 
                 <div class="row row-gap-4 my-5 justify-content-around">
-                    <div class="col-lg-5">
+                    <div class="col-lg-5" data-aos="fade-right" data-aos-delay="500">
                         <h5 class="fs-4 mb-4 text-success">Pemantauan Digital</h5>
                         <p>Melangkah ke Era Baru dalam Manajemen Ternak. Dengan teknologi canggih, kami tidak hanya mengawasi, tetapi juga mengoptimalkan kesehatan dan kinerja ternak</p>
                     </div>
-                    <div class="col-lg-5">
+                    <div class="col-lg-5" data-aos="fade-right" data-aos-delay="500">
                         <h5 class="fs-4 mb-4 text-success">Data Realtime</h5>
                         <p>Pintu Menuju Produktivitas Ternak yang Lebih Baik. Dengan informasi yang diperoleh secara instan, salah satu perjalanan menuju efisiensi dan kesejahteraan ternak yang tak tertandingi</p>
                     </div>
@@ -272,7 +271,7 @@
                             <div class="accordion-item border-0 bg-transparant">
                                 <h2 class="accordion-header">
                                     <button class="accordion-button bg-transparant fw-medium collapsed ps-0" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                                        Dimana Lokasi  peternakan
+                                        Dimana Lokasi peternakan
                                     </button>
                                 </h2>
                                 <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
@@ -316,17 +315,17 @@
             </div>
         </section>
 
-       <section class="contact" id="contact">
+        <section class="contact" id="contact">
             <div class="container">
                 <div class="row row-gap-4">
                     <div class="col-lg-4">
                         <div class="d-flex flex-column justify-content-around h-100">
-                            <div class="content-items">
+                            <div class="content-items mb-5 mb-lg-0">
                                 <h3 class="card-title text-success fw-semibold mb-3">Lokasi</h3>
                                 <p class="card-text">Jalan Simpang Siliwangi No.88H, Baleendah, Kec. Baleendah, Kabupaten Bandung, Jawa Barat 40375</p>
                             </div>
 
-                            <div class="content-items">
+                            <div class="content-items mb-5 mb-lg-0">
                                 <h3 class="card-title text-success fw-semibold mb-3">Kontak</h3>
                                 <ul class="list-group">
                                     <li class="list-group-item border-0 ps-0 py-1 bg-transparant">
@@ -350,7 +349,7 @@
                                 </ul>
                             </div>
 
-                            <div class="content-items">
+                            <div class="content-items mb-5 mb-lg-0">
                                 <h3 class="card-title text-success fw-semibold mb-3">Sosial</h3>
                                 <ul class="list-group">
                                     <li class="list-group-item border-0 ps-0 py-1 bg-transparant">
@@ -403,8 +402,8 @@
                                         <label for="message" class="form-label text-uppercase fw-medium text-success">Pesan</label>
                                         <textarea name="" class="form-control rounded-4" id="message" placeholder="Tuliskan Pesan" rows="5"></textarea>
                                     </div>
-                                    
-                                    <div class="d-flex ">
+
+                                    <div class="d-flex">
                                         <button class="btn btn-success rounded-pill ms-auto px-4 py-3">Kirim Pesan</button>
                                     </div>
                                 </form>
@@ -416,16 +415,16 @@
         </section>
     </div>
 
-    <div class="footer">
+    <section class="footer">
         <div class="container">
-            <div class="row justify-content-between">
+            <div class="row justify-content-between row-gap-4">
                 <div class="col-lg-5">
                     <img src="./assets/img/logo.png" alt="" class="logo mb-4">
                     <p class="fw-light">
                         <span class="fw-semibold">DFARM DREAM</span> adalah teknologi dan platform digital untuk mengelola dan meningkatkan produktivitas serta kesejahteraan hewan ternak
                     </p>
                 </div>
-                <div class="col-lg-2">
+                <div class="col-lg-2 col-sm-4 col-6">
                     <h6 class="lead fw-medium text-success mb-4">Section</h6>
                     <ul class="list-groub p-0">
                         <li class="list-group-item mb-2">Home</li>
@@ -434,7 +433,7 @@
                         <li class="list-group-item mb-2">Kontak</li>
                     </ul>
                 </div>
-                <div class="col-lg-2">
+                <div class="col-lg-2 col-sm-4 col-6">
                     <h6 class="lead fw-medium text-success mb-4">Perusahaan</h6>
                     <ul class="list-groub p-0">
                         <li class="list-group-item mb-2">Privacy</li>
@@ -443,7 +442,7 @@
                         <li class="list-group-item mb-2">FAQ</li>
                     </ul>
                 </div>
-                <div class="col-lg-2">
+                <div class="col-lg-2 col-sm-4 col-6">
                     <h6 class="lead fw-medium text-success mb-4">Aplikasi</h6>
                     <a class="btn p-0">
                         <img src="./assets/img/playstore.png" class="img-fluid">
@@ -459,7 +458,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
@@ -469,6 +468,7 @@
     <script src="assets/js/aos.js"></script>
     <script src="assets/js/glightbox.min.js"></script>
     <script src="assets/js/main.js"></script>
+    <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 </body>
 
 </html>
