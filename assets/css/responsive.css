@@ -1,51 +1,68 @@
 @media (max-width: 575.98px) {
-	.header{
+	.header {
 		top: 10px;
 		width: calc(100vw - 20px);
 	}
 
-	.header.active{
+	.header.active {
 		width: 100vw;
 	}
 
-	.header .navbar-brand .logo{
+	.header .navbar-brand .logo {
 		width: calc(100% - 40px);
 	}
 
 
-	.home .row .title{
+	.home .row .title {
 		position: relative;
 		font-size: 30px;
 	}
 
-	.contact .card{
+	.contact .card {
 		padding: 10px;
 	}
 
-	.lead{
+	.lead {
 		font-size: 16px !important;
 	}
+
 	section:not(.home),
-	section .sosial{
+	section .sosial {
 		padding-left: 25px !important;
 		padding-right: 25px !important;
 	}
-	
-	section.contact{
+
+	section.contact {
 		padding-left: 0 !important;
 		padding-right: 0 !important;
 	}
 
-	.innovation, .exploreasi{
+	.innovation, .exploreasi {
 		padding-bottom: 0;
 	}
-	
-	.exploreasi{
+
+	.exploreasi {
 		padding: 0;
 	}
 
-	.contact .card{
+	.contact .card {
 		padding: 0px;
+	}
+
+	.innovation {
+		padding: 40px 0 0px 0;
+	}
+
+	.faq {
+		padding: 40px 0;
+	}
+
+	.img-komitmen {
+		margin-left: -22px;
+	}
+
+	.img-misi {
+		margin-left: 22px;
 	}
 }
 

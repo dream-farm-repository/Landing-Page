@@ -255,3 +255,7 @@ body{
     padding: 20px 10px;
     text-align: center;
 }
+
+.lead {
+    font-size: 1.1rem !important;
+}
